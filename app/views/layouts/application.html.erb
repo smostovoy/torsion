@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Torsion</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<div id="page">
+  <div id="top">
+    <!--div id="logo"><img src="images/logo.png" width="72" height="62" alt=""></div-->
+    <div id="company_name"><span>ТОРСИОН ПЛЮС - разработка и продвижение оборудования cпециального назначения</span>
+    </div>
+    <!--div id="search"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="175"><input type="text" class="search_area"></td>
+        <td><a href="#"><img src="images/spacer.gif" width="85" height="30" alt=""></a></td>
+      </tr>
+    </table>
+    </div-->
+  </div>
+  <div id="menu">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="10"><img src="images/ml.png" width="10" height="58" alt=""></td>
+        <td>
+          <table border="0" align="left" cellpadding="0" cellspacing="0">
+            <tr>
+              <td class="item"><a href="index.html">Главная</a></td>
+              <td class="item"><a href="our_products.html">Наши проекты</a></td>
+              <td class="item"><a href="our_partners.html">Партнеры</a></td>
+              <td class="item"><a href="innovation.html">Инновации</a></td>
+              <td class="item"><a href="news.html">Новости</a></td>
+              <td class="item"><a href="contacts.html">Контакты</a></td>
+            </tr>
+          </table>
+        </td>
+        <td width="10"><img src="images/mr.png" width="10" height="58" alt=""></td>
+      </tr>
+    </table>
+  </div>
+  <%= yield %>
+  <div id="footer">
+    <div id="bottom_menu"><a href="index.html">Главная</a> |<a href="our_products.html">Наши проекты</a> | <a
+    href="contacts.html">Контакты</a></div>
+    <div id="bottom_addr">© 2011 Torsion Plus. All Rights Reserved<br></div>
+  </div>
+</div>
+</body>
+</html>
