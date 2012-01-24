@@ -1,0 +1,64 @@
+html,body{margin:0;padding:0;background:#fff;width:100%;height:100%;font-family:Arial, Helvetica, sans-serif;}
+* html #wrap{height: 100%;}
+p{font-family: Arial, Helvetica, sans-serif; font-size: 11pt; line-height:140%}
+p2{font-family: Arial, Helvetica, sans-serif; font-size: 9pt}
+td{font-family: Arial, Helvetica, sans-serif; margin-top:0px;font-size: 11pt}
+p1{font-family:Arial,Helvetica, sans-serif; margin-top:5px;font-size: 11pt; margin:2px 0 5px}
+td1 {font-family: Arial, myriad pro, Verdana, Helvetica, sans-serif; font-size: 12pt;color:#443e9b; font-weight: strong;}
+nam {font-family: Arial, myriad pro, Verdana, Helvetica, sans-serif; font-size: 13pt;color:#443e9b; font-weight: strong;}
+
+
+a img{border:0;}
+a{color: #543dab;text-decoration:underline;}
+a:hover{color: #4553d3;	text-decoration:none;}
+a.hidden{text-decoration: none;color:#000;cursor:default;}
+
+form{margin:0;padding:0;}
+div.clr{clear:both;}
+
+ul{margin:0 0 0 20px;padding:0;list-style-type: square;line-height: 16px;}
+
+h1{font-family: Arial;font-size:21px;font-weight:normal;color:#443e9b;margin:5px 0 10px;}
+h2{font-family: Arial;font-size:18px;font-weight:normal;color:#443e9b;margin:2px 0 7px;}
+h3{font-family: Arial;font-size:14px;font-weight:strong;color:#443e9b;margin:2px 0 5px;}
+
+#wrap{position:relative; min-height:100%; margin:0 auto; width:100%;}
+#page{width:920px;margin:0 auto;}
+
+#top{height:97px;position:relative;overflow:hidden;}
+
+#header{position:relative;}
+	#logo{position:absolute; margin:19px 0 0 20px;}
+	#company_name{font-size:26px;font-weight:normal; font-style:italic;text-transform: none;color: #4c4c4c; position:absolute; margin:32px 0 0 100px;}
+	#company_name span{color:#7f36ad;}
+	#search{background:url(../images/search_bg.png) no-repeat; width:260px; height:30px; position:absolute; margin:33px 0 0 640px;}
+	.search_area{border:0; background:#d0d0d0; width:145px; margin:0 0 0 23px;}
+
+#menu{color: #FFF;padding:0;white-space: nowrap; height:59px; background:url(../images/mbg.png) repeat-x;}
+	#menu .item{font-style:italic;font-weight: bold; font-size:14px; text-align:center; padding:0 25px;}
+	#menu .item a{text-decoration: none;color: #FFF;}
+	#menu .item a:hover{color: #FFF;text-decoration: underline;}
+
+#contentwrap{position:relative; background:#f0f0f0 url(../images/contentwrap_bg.png) no-repeat top; overflow:hidden; padding:15px; font-size:12px;}
+
+	#body_area{color:#000;text-align: justify;padding:0;vertical-align: top; float:right; width:850px;margin:0;}
+	#body_area p.date{font-size:11px; margin:10px 0 2px; color:#543dab;font-weight:strong}
+	#sidebar{float:left; width:275px; margin:0;}
+	#body_area. a{color:red; text-decoration:underline;}
+	#login_form{height: 20px;width: 150px;font-size: 12px;}
+	
+#submenu{height:165px; background:url(../images/submenu_bg.png) repeat-x; width:918px; font-size:10px;}	
+#submenu .item{padding:10px 12px;}
+#submenu p.date{font-size:11px; margin:10px 0 2px; color:#543dab;font-weight:strong}
+#submenu h3{font-size:17px; font-style:italic; color:#543dab; font-weight:strong; margin:0 0 2px;}
+#submenu a.btn_more{height:25px; background:#51356d url(../images/more_btn.png) no-repeat right; width:65px; color:#FFF; font-size:15px; font-style:italic; text-align:center; line-height: 25px; display:block; text-decoration:none;}
+#submenu a.btn_more:hover{cursor:pointer;}
+
+#footer{width:920px; background:#bababa url(../images/footer_bg.png) no-repeat bottom;}
+	#bottom_menu{color:#000;text-align: center;padding: 15px 15px 4px; font-size:12px;}
+	#bottom_menu a{color:#000;text-decoration:underline; padding:0 15px;}
+	#bottom_menu a:hover{color:#000;text-decoration:underline;}
+
+	#bottom_addr{color:#FFF;text-align:center;padding: 4px 15px 15px; font-size:11px;}
+	#bottom_addr a{text-decoration:underline; color:#333;}
+	#bottom_addr a:hover{text-decoration: underline;}
